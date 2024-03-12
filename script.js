@@ -48,8 +48,8 @@ document.getElementById('submit-guess').onclick = function () {
         }
         document.getElementById('guess-input').value = '';
         currentRow++;
-        if (currentRow === 5) {
-            alert(`You lost. The word was ${word}`);
-        }
+    }
+    if (currentRow === 5) {
+        alert(`You lost. The word was ${word}`);
     }
 }
